@@ -16,3 +16,67 @@ header nav a img{
     margin: 0 auto;
 }
 
+.container-main{
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.container-shop{
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.container-shop img{
+    width: 100%;
+    
+}
+
+.photo-hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+main section .container-shop:hover .photo-hover{
+    display: inline;
+}
+
+.heart{
+    right: 0;
+    top: 10px;
+    padding: 0 10px;
+    font-size: 30px;
+    background-color: #fff;
+    z-index: 4;
+}
+
+main section .container-shop:hover .heart{
+    color: #ff0000;
+}
+
+#etichette{
+    bottom: 110px;
+    z-index: 3;
+}
+
+.etichetta-1{
+    background-color: #ff0000;
+    padding: 3px 10px;
+}
+
+.etichetta-2{
+    background-color: #008000;
+    padding: 3px 10px;
+}
+
+.price-1{
+    color: #ff0000;
+}
+
+.price-2{
+    text-decoration: line-through;
+}
+

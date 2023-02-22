@@ -16,10 +16,22 @@
     margin: 0 auto;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 .white{
     color: #fff;
 }
 
 .margin-left{
     margin-left: 10px;
+}
+
+.font-size{
+    font-size: 13px;
 }
