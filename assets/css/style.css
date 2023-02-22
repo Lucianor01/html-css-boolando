@@ -1,0 +1,18 @@
+header{
+    background-color: #ff6900;
+}
+
+nav{
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav-left{
+    list-style: none;
+}
+
+header nav a img{
+    width: 15%;
+    margin: 0 auto;
+}
+
