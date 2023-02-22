@@ -1,10 +1,11 @@
+/* HEADER */
 header{
     background-color: #ff6900;
 }
 
 nav{
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 15px 0;
 }
 
 .nav-left{
@@ -16,15 +17,16 @@ header nav a img{
     margin: 0 auto;
 }
 
+/* MAIN */
 .container-main{
     flex-wrap: wrap;
     margin-top: 30px;
 }
 
 .container-shop{
-    width: 30%;
-    margin-left: 10px;
+    width: 32.6%;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .container-shop img{
@@ -57,7 +59,7 @@ main section .container-shop:hover .heart{
     color: #ff0000;
 }
 
-#etichette{
+.etichette{
     bottom: 110px;
     z-index: 3;
 }
@@ -80,3 +82,16 @@ main section .container-shop:hover .heart{
     text-decoration: line-through;
 }
 
+/* FOOTER */
+footer{
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+.container-footer{
+    justify-content: space-between;
+}
+
+.fa-brands{
+    margin-top: 10px;
+}

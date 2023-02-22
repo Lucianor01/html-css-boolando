@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Boolean</title>
@@ -15,11 +15,13 @@
         <!-- NAV -->
         <nav class="flex width-80-auto">
             <!-- LEFT NAV -->
-            <ul class="flex nav-left white">
-                <li class="margin-left">Donna</li>
-                <li class="margin-left">Uomo</li>
-                <li class="margin-left">Bambini</li>
-            </ul>
+            <a href="#">
+                <ul class="flex nav-left">
+                    <li class="white">Donna</li>
+                    <li class="margin-left white">Uomo</li>
+                    <li class="margin-left white">Bambini</li>
+                </ul>
+            </a>
             <!-- LOGO -->
             <a href="#">
                 <img class="flex" src="./assets/img/boolean-logo.png" alt="logo">
@@ -34,14 +36,15 @@
     </header>
     <!-- MAIN -->
     <main>
+        <!-- CONTAINER MAIN -->
         <section class="flex width-80-auto">
             <div class="flex container-main">
                 <!-- CONTAINER SHOP 1 -->
-                <div class="container-shop margin-left relative">
+                <div class="container-shop relative margin-right">
                     <img class="relative" src="./assets/img/1.webp" alt="photo">
                     <img class="photo-hover" src="./assets/img/1b.webp" alt="photo hover">
                     <div class="heart absolute">&hearts;</div>
-                    <div id="etichette" class="absolute">
+                    <div class="absolute etichette">
                         <span class="etichetta-1 white font-size">-50%</span>
                         <span class="etichetta-2 white font-size">Sostenibilità</span>
                     </div>
@@ -51,11 +54,11 @@
                     <span class="price-2">29,99 &euro;</span>
                 </div>
                 <!-- CONTAINER SHOP 2 -->
-                <div class="container-shop margin-left relative">
+                <div class="container-shop relative margin-right">
                     <img class="relative" src="./assets/img/2.webp" alt="photo">
                     <img class="photo-hover" src="./assets/img/2b.webp" alt="photo hover">
                     <div class="heart absolute">&hearts;</div>
-                    <div id="etichette" class="absolute">
+                    <div class="absolute etichette">
                         <span class="etichetta-1 white font-size">-30%</span>
                     </div>
                     <div class="font-size">Guess</div>
@@ -64,11 +67,11 @@
                     <span class="price-2">29,99 &euro;</span>
                 </div>
                 <!-- CONTAINER SHOP 3 -->
-                <div class="container-shop margin-left relative">
+                <div class="container-shop relative">
                     <img class="relative" src="./assets/img/3.webp" alt="photo">
                     <img class="photo-hover" src="./assets/img/3b.webp" alt="photo hover">
                     <div class="heart absolute">&hearts;</div>
-                    <div id="etichette" class="absolute">
+                    <div class="absolute etichette">
                         <span class="etichetta-1 white font-size">-30%</span>
                     </div>
                     <div class="font-size">Come Zucchero Filato</div>
@@ -77,11 +80,11 @@
                     <span class="price-2">184,99 &euro;</span>
                 </div>
                 <!-- CONTAINER SHOP 4 -->
-                <div class="container-shop margin-left relative">
+                <div class="container-shop relative margin-right">
                     <img class="relative" src="./assets/img/4.webp" alt="photo">
                     <img class="photo-hover" src="./assets/img/4b.webp" alt="photo hover">
                     <div class="heart absolute">&hearts;</div>
-                    <div id="etichette" class="absolute">
+                    <div class="absolute etichette">
                         <span class="etichetta-1 white font-size">-50%</span>
                         <span class="etichetta-2 white font-size">Sostenibilità</span>
                     </div>
@@ -91,7 +94,7 @@
                     <span class="price-2">29,99 &euro;</span>
                 </div>
                 <!-- CONTAINER SHOP 5 -->
-                <div class="container-shop margin-left relative">
+                <div class="container-shop relative margin-right">
                     <img class="relative" src="./assets/img/5.webp" alt="photo">
                     <img class="photo-hover" src="./assets/img/5b.webp" alt="photo hover">
                     <div class="heart absolute">&hearts;</div>
@@ -100,11 +103,11 @@
                     <span class="price-1">99,99 &euro;</span>
                 </div>
                 <!-- CONTAINER SHOP 6 -->
-                <div class="container-shop margin-left relative">
+                <div class="container-shop relative">
                     <img class="relative" src="./assets/img/6.webp" alt="photo">
                     <img class="photo-hover" src="./assets/img/6b.webp" alt="photo hover">
                     <div class="heart absolute">&hearts;</div>
-                    <div id="etichette" class="absolute">
+                    <div class="absolute etichette">
                         <span class="etichetta-2 white font-size">Sostenibilità</span>
                     </div>
                     <div class="font-size">Espirit</div>
@@ -114,6 +117,38 @@
             </div>
         </section>
     </main>
+    <!-- FOOTER -->
+    <footer>
+        <!-- CONTAINER FOOTER -->
+        <div class="flex width-80-auto container-footer">
+            <!-- CONTAINER FOOTER LEFT -->
+            <div>
+                <h4 class="white">Boolando s.r.l</h4>
+                <span class="white font-size">Informazioni legali</span>
+                <span class="white font-size">Inormativa sulla privacy</span>
+                <span class="white font-size">Diritto di recesso</span>
+            </div>
+            <!-- CONTAINER FOOTER RIGHT -->
+            <div class="container-footer-right">
+                <h5 class="white">Trovaci anche su</h5>
+                <a href="#">
+                    <span><i class="fa-brands fa-square-twitter white"></i></span>
+                </a>
+                <a href="#">
+                    <span><i class="fa-brands fa-square-instagram white margin-left"></i></span>
+                </a>
+                <a href="#">
+                    <span><i class="fa-brands fa-square-pinterest white margin-left"></i></span>
+                </a>
+                <a href="#">
+                    <span><i class="fa-brands fa-square-youtube white margin-left"></i></span>
+                </a>
+                <a href="#">
+                    <span><i class="fa-brands fa-square-facebook white margin-left"></i></span>
+                </a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

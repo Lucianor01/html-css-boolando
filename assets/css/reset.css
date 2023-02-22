@@ -28,10 +28,17 @@
     color: #fff;
 }
 
+.margin-right{
+    margin-right: 10px;
+}
+
 .margin-left{
     margin-left: 10px;
 }
 
 .font-size{
     font-size: 13px;
+}
+a{
+    text-decoration: none;
 }
