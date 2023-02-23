@@ -1,6 +1,12 @@
 /* HEADER */
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
     background-color: #ff6900;
+    
 }
 
 nav{
@@ -20,7 +26,7 @@ header nav a img{
 /* MAIN */
 .container-main{
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .container-shop{
